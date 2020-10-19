@@ -5,6 +5,7 @@ import Mode from '../components/Mode';
 import Footer from '../components/Footer';
 
 import { COLORS } from '../constants';
+import PageHead from '../components/PageHead';
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -44,6 +45,7 @@ const Home = () => (
   <>
     <GlobalStyle />
     <Container>
+      <PageHead />
       <Mode />
     </Container>
     <Footer />
